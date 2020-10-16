@@ -47,7 +47,12 @@ uint32_t HAL_FLASH_GetError(void);
 HAL_StatusTypeDef       FLASH_WaitForLastOperation(uint32_t Timeout);
 ```
 
+## 定时器相关函数
 
+```c
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+```
 
 
 
