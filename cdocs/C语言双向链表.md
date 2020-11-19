@@ -14,13 +14,3 @@ struct DList {
 
 ### 创建头结点
 
-```c
-void initNode(DList_t *head)
-{
-    DList_t *h = (DList_t*)malloc(sizeof(DList_t));
-    h->
-}
-```
-
-
-
